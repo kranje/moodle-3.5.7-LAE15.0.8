@@ -1,0 +1,46 @@
+Change List
+=========
+3.1.3 (Build 2019061800)
+-Added a new capability 'reviewsubmissions' allows users. Use to allow playback of recordings even without grade permission
+-Fixed broken teamsubmissions (group)
+
+3.1.2 (Build 2019052000)
+-Implemented "Remove Submission" feature
+-Added toggle current submission and better delete submission on edit page
+
+3.1.1 (Build 2018113000)
+-Improved support for privacy api
+
+Version 3.1.0(Build 2018041000)
+-Implemented new Moodle Privacy API
+
+Version 2017092200
+Added the ability to not show audio player in list or summary pages
+
+Version 2017082600
+Added support for passing "hints" to audio and video recorder
+We use these allow sizes and skins to be set from different context levels
+
+Version 2017052201
+Removed recorder specific options and replaced with media types
+
+Version 2017020501
+Added better support for widths of submitted whiteboards, images and videos
+Fixed a bug when resubmitting assignments that had not passed form validation
+
+Version 2016112701
+Fixed an issue where widths were pulled from a  missing poodll property
+
+Version 2016112401
+Fixed an issue where the snapshot recorder was not properly supported
+
+Version 2016081402
+Fixed an issue with constant declaration that could mess up behat
+Added two new sizes for whiteboard. 
+
+Version 2016081401
+Version bump(big) for PoodLL 3 support, but no major changes
+
+Version 2015121101
+Support for refactored PoodLL filter and support for Moodle 3.0
+
